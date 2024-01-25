@@ -1,0 +1,28 @@
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin absolutePositioning ($top, $left:0%, $right:0%){
+    position: absolute;
+    top: $top;
+    left: $left;
+    right: $right;
+}
+
+@mixin dots($size, $height: 0%) {
+    position: absolute;
+    background-color: $darkmode-transparent_background;
+    border-radius: 50%;
+    width: $size;
+    height: $height;
+    opacity: 0;
+}
+
+@mixin mode ($light-mode: true){
+    @if $light-mode {
+        background-color: $lightmode-background;
+        color: $lightmode-regulartext_color;
+    }
+}
