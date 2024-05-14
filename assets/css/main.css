@@ -1582,7 +1582,7 @@ a {
   height: 100%;
   display: flex;
   flex-direction: column;
-  overflow: auto;
+  overflow-y: auto;
   padding-top: 5%;
 }
 .portfolio_area .portfolio_grid section {
