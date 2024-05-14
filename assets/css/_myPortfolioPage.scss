@@ -719,7 +719,7 @@
             // position: absol;
             // @include absolutePositioning(15%, 1%);
             width: 100vw;
-            height: 100%;
+            height: 100vh;
             display: flex;
             flex-direction: column;
             // grid-auto-flow: column;
@@ -733,7 +733,7 @@
 
             section {
                 width: 100%;
-                min-height: 80vh;
+                min-height: 90vh;
                 padding: 0% 0%;
                 background-color: rgba(255, 255, 255, 0.018);
                 margin-bottom: 0.5%;
@@ -776,7 +776,7 @@
                     img {
                         @include absolutePositioning(0%,0%);
                         width: 135%;
-                        height: 80vh;
+                        height: 90vh;
                     }
 
                     &:first-child{

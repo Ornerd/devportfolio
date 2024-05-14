@@ -1761,7 +1761,8 @@ a {
     
         .img{
             position: absolute;
-            top: 0%;
+            top: 50%;
+            transform:translateY(-50%);
             left: -15%;
             opacity: 100%;
             // background-color: aqua;
@@ -1769,7 +1770,7 @@ a {
             filter: grayscale(100%) brightness(60%);
             z-index: 6;
             width: 100%;
-            max-height: 180dvh;
+            min-height: 200dvh;
             // width: 900px;
             min-width: 480px;
             max-width: 1000px;
@@ -1911,7 +1912,7 @@ a {
             display: flex;
             justify-content: right;
             z-index: 70;
-            margin-top: 5%;
+            margin-top: 15%;
             // background-color: yellow;
     
            
