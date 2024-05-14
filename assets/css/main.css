@@ -1658,6 +1658,7 @@ a {
   opacity: 0%;
   color: yellowgreen;
   display: flex;
+  flex-shrink: 0;
   width: 10%;
 }
 .portfolio_area .portfolio_grid section:nth-child(2) .img-slides, .portfolio_area .portfolio_grid section:nth-child(4) .img-slides {
@@ -1902,7 +1903,8 @@ a {
     opacity: 1;
     margin-top: 5%;
     color: yellowgreen;
-    width: 15%;
+    width: 100%;
+    justify-content: center;
   }
   .portfolio_area .portfolio_grid section:nth-child(2) .img-slides {
     animation: slideToRight 20s infinite linear;

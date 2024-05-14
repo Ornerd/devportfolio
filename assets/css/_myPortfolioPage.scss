@@ -212,6 +212,7 @@
                 opacity: 0%;
                 color: yellowgreen;
                 display: flex;
+                flex-shrink: 0;
                 width: 10%;
             }
 
@@ -537,7 +538,8 @@
                     opacity: 1;
                     margin-top: 5%;
                     color: yellowgreen;
-                    width: 15%;
+                    width: 100%;
+                   justify-content: center;
                 }
 
                 &:nth-child(2){
