@@ -1837,6 +1837,7 @@ a {
     cursor: pointer;
     overflow: hidden;
     position: relative;
+    color: rgba(224, 224, 224, 0.774);
   }
   .portfolio_area .portfolio_grid section section {
     display: none;
@@ -1879,6 +1880,10 @@ a {
   }
   .portfolio_area .portfolio_grid section h1 {
     text-align: center;
+    color: white;
+  }
+  .portfolio_area .portfolio_grid section h3 {
+    color: rgba(255, 255, 255, 0.842);
   }
   .portfolio_area .portfolio_grid section div {
     display: flex;

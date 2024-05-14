@@ -442,6 +442,7 @@
                 cursor: pointer;
                 overflow: hidden;
                 position: relative;
+                color: rgba(224, 224, 224, 0.774);
 
                 section{
                     display: none;
@@ -495,9 +496,14 @@
 
                 h1 {
                     text-align: center;
+                    color: white;
                     // font-size: map-get($font-sizes, $key: "dropcap" );
                     // font-family: sans-serif;
                     // font-weight: 200;
+                }
+
+                h3 {
+                    color: rgba(255, 255, 255, 0.842);
                 }
 
                 div {
