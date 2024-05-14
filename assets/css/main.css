@@ -673,6 +673,7 @@ a {
     justify-content: center;
     z-index: 70;
     margin-top: 5%;
+    overflow-x: scroll;
   }
   .hero_section nav .menus {
     height: -moz-fit-content;
@@ -680,7 +681,7 @@ a {
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
   }
   .hero_section nav .menus div {
     display: flex;
