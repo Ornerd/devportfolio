@@ -521,9 +521,6 @@ barba.init({
             // document.querySelector(".target").style.top = `${movedY-15}px`
           })
 
-          project.addEventListener('mouseenter', ()=>{
-            console.log(document.querySelector(".see-more"))
-          })
           project.addEventListener('mouseleave', ()=>{
             project.querySelector(".see-more").style.opacity='0'
             project.querySelector(".see-more").style.left = '0'
